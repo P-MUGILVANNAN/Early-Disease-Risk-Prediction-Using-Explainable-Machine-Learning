@@ -1,0 +1,406 @@
+{
+  "disease": "kidney_disease",
+  "model_name": "XGBoost Classifier",
+  "model_version": "1.0.0",
+  "training_date": "2026-10-15T10:04:27.389386+00:00",
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "specificity": 1.0,
+  "f1_score": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "brier_score": 0.0028,
+  "confusion_matrix": {
+    "tp": 50,
+    "fp": 0,
+    "tn": 30,
+    "fn": 0
+  },
+  "roc_curve": [
+    {
+      "fpr": 0.0,
+      "tpr": 0.0
+    },
+    {
+      "fpr": 0.0,
+      "tpr": 0.02
+    },
+    {
+      "fpr": 0.0,
+      "tpr": 0.08
+    },
+    {
+      "fpr": 0.0,
+      "tpr": 0.14
+    },
+    {
+      "fpr": 0.0,
+      "tpr": 0.18
+    },
+    {
+      "fpr": 0.0,
+      "tpr": 0.24
+    },
+    {
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "fpr": 0.9,
+      "tpr": 1.0
+    },
+    {
+      "fpr": 0.9667,
+      "tpr": 1.0
+    },
+    {
+      "fpr": 1.0,
+      "tpr": 1.0
+    }
+  ],
+  "pr_curve": [
+    {
+      "recall": 1.0,
+      "precision": 0.625
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.6329
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.6494
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.6579
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.6667
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.6757
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.6849
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.6944
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.7042
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.7143
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.7246
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.7353
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.7463
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.7576
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.7692
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.7812
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.7937
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.8065
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.8197
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.8333
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.8475
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.8621
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.8772
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.8929
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.9091
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.9259
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.9434
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.9615
+    },
+    {
+      "recall": 1.0,
+      "precision": 0.9804
+    },
+    {
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.98,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.96,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.94,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.92,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.9,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.88,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.86,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.84,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.82,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.8,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.78,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.76,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.74,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.72,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.7,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.68,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.66,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.64,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.62,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.6,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.58,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.56,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.54,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.52,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.5,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.48,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.46,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.44,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.42,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.4,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.38,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.36,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.34,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.32,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.3,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.28,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.26,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.24,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.18,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.14,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.08,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.06,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.04,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.02,
+      "precision": 1.0
+    },
+    {
+      "recall": 0.0,
+      "precision": 1.0
+    }
+  ],
+  "baseline_comparison": [
+    {
+      "model_name": "Logistic Regression",
+      "accuracy": 0.9875,
+      "precision": 1.0,
+      "recall": 0.98,
+      "f1_score": 0.9899,
+      "roc_auc": 1.0,
+      "cv_roc_auc_mean": 0.9998,
+      "cv_roc_auc_std": 0.0004
+    },
+    {
+      "model_name": "Decision Tree",
+      "accuracy": 0.975,
+      "precision": 0.98,
+      "recall": 0.98,
+      "f1_score": 0.98,
+      "roc_auc": 0.973,
+      "cv_roc_auc_mean": 0.9715,
+      "cv_roc_auc_std": 0.0214
+    },
+    {
+      "model_name": "Random Forest",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "cv_roc_auc_mean": 0.9994,
+      "cv_roc_auc_std": 0.0008
+    },
+    {
+      "model_name": "XGBoost (Proposed)",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "cv_roc_auc_mean": 0.9985,
+      "cv_roc_auc_std": 0.0016
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "disease": "diabetes",
+  "dataset_name": "Pima Indians Diabetes Database",
+  "total_rows": 768,
+  "total_columns": 9,
+  "feature_columns": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "target_column": "Outcome",
+  "target_distribution": {
+    "0": 500,
+    "1": 268
+  },
+  "missing_values_before_cleaning": {
+    "Pregnancies": 0,
+    "Glucose": 0,
+    "BloodPressure": 0,
+    "SkinThickness": 0,
+    "Insulin": 0,
+    "BMI": 0,
+    "DiabetesPedigreeFunction": 0,
+    "Age": 0,
+    "Outcome": 0
+  },
+  "biologically_invalid_zeros_converted_to_nan": {
+    "Glucose": 5,
+    "BloodPressure": 35,
+    "SkinThickness": 227,
+    "Insulin": 374,
+    "BMI": 11
+  },
+  "total_nan_after_cleaning": {
+    "Pregnancies": 0,
+    "Glucose": 5,
+    "BloodPressure": 35,
+    "SkinThickness": 227,
+    "Insulin": 374,
+    "BMI": 11,
+    "DiabetesPedigreeFunction": 0,
+    "Age": 0
+  },
+  "validation_status": "Valid - Biological zeros converted to NaN for training-only imputation"
+}

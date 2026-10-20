@@ -1,0 +1,64 @@
+{
+  "disease": "diabetes",
+  "base_value": 0.04364878684282303,
+  "feature_names": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "global_importance": [
+    {
+      "feature": "Glucose",
+      "display_name": "Plasma Glucose",
+      "mean_abs_shap": 1.02311,
+      "description": "2-hour oral glucose tolerance test concentration"
+    },
+    {
+      "feature": "BMI",
+      "display_name": "Body Mass Index (BMI)",
+      "mean_abs_shap": 0.62634,
+      "description": "Weight in kg divided by height in meters squared"
+    },
+    {
+      "feature": "Age",
+      "display_name": "Age",
+      "mean_abs_shap": 0.41354,
+      "description": "Age of individual in years"
+    },
+    {
+      "feature": "DiabetesPedigreeFunction",
+      "display_name": "Diabetes Pedigree Score",
+      "mean_abs_shap": 0.33481,
+      "description": "Genetic risk score based on family history"
+    },
+    {
+      "feature": "Insulin",
+      "display_name": "Serum Insulin",
+      "mean_abs_shap": 0.23182,
+      "description": "2-Hour post-load serum insulin"
+    },
+    {
+      "feature": "Pregnancies",
+      "display_name": "Pregnancies",
+      "mean_abs_shap": 0.16846,
+      "description": "Number of times pregnant"
+    },
+    {
+      "feature": "SkinThickness",
+      "display_name": "Triceps Skin Fold",
+      "mean_abs_shap": 0.0922,
+      "description": "Triceps skin fold thickness"
+    },
+    {
+      "feature": "BloodPressure",
+      "display_name": "Diastolic Blood Pressure",
+      "mean_abs_shap": 0.0908,
+      "description": "Diastolic blood pressure"
+    }
+  ]
+}

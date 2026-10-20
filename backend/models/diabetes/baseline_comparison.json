@@ -1,0 +1,42 @@
+[
+  {
+    "model_name": "Logistic Regression",
+    "accuracy": 0.7078,
+    "precision": 0.6,
+    "recall": 0.5,
+    "f1_score": 0.5455,
+    "roc_auc": 0.813,
+    "cv_roc_auc_mean": 0.8428,
+    "cv_roc_auc_std": 0.019
+  },
+  {
+    "model_name": "Decision Tree",
+    "accuracy": 0.7597,
+    "precision": 0.6393,
+    "recall": 0.7222,
+    "f1_score": 0.6783,
+    "roc_auc": 0.7622,
+    "cv_roc_auc_mean": 0.7712,
+    "cv_roc_auc_std": 0.034
+  },
+  {
+    "model_name": "Random Forest",
+    "accuracy": 0.7403,
+    "precision": 0.6667,
+    "recall": 0.5185,
+    "f1_score": 0.5833,
+    "roc_auc": 0.8167,
+    "cv_roc_auc_mean": 0.8353,
+    "cv_roc_auc_std": 0.0178
+  },
+  {
+    "model_name": "XGBoost (Proposed)",
+    "accuracy": 0.7532,
+    "precision": 0.629,
+    "recall": 0.7222,
+    "f1_score": 0.6724,
+    "roc_auc": 0.8333,
+    "cv_roc_auc_mean": 0.8262,
+    "cv_roc_auc_std": 0.0258
+  }
+]

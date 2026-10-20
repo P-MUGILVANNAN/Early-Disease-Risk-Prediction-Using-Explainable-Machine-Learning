@@ -1,0 +1,36 @@
+{
+  "disease": "heart_disease",
+  "model_version": "1.0.0",
+  "model_type": "XGBoostClassifier",
+  "training_date": "2026-10-15T10:04:25.613205+00:00",
+  "random_seed": 42,
+  "hyperparameters": {
+    "n_estimators": 120,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "subsample": 0.85,
+    "colsample_bytree": 0.85,
+    "scale_pos_weight": 1.1801801801801801,
+    "eval_metric": "logloss",
+    "random_state": 42
+  },
+  "dataset_rows": 303,
+  "train_samples": 242,
+  "test_samples": 61,
+  "feature_names": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak",
+    "sex",
+    "cp",
+    "fbs",
+    "restecg",
+    "exang",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "base_value": 0.021112490445375443
+}

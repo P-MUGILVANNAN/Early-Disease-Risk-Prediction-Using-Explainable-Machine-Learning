@@ -1,0 +1,99 @@
+{
+  "disease": "heart_disease",
+  "base_value": 0.021112490445375443,
+  "feature_names": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak",
+    "sex",
+    "cp",
+    "fbs",
+    "restecg",
+    "exang",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "global_importance": [
+    {
+      "feature": "ca",
+      "display_name": "Major Vessels Colored by Fluoroscopy",
+      "mean_abs_shap": 0.84041,
+      "description": "Number of major vessels (0-3) colored"
+    },
+    {
+      "feature": "thal",
+      "display_name": "Thallium Stress Scintigraphy",
+      "mean_abs_shap": 0.79918,
+      "description": "3 = Normal, 6 = Fixed Defect, 7 = Reversible Defect"
+    },
+    {
+      "feature": "cp",
+      "display_name": "Chest Pain Type",
+      "mean_abs_shap": 0.64313,
+      "description": "1 = Typical Angina, 2 = Atypical Angina, 3 = Non-anginal, 4 = Asymptomatic"
+    },
+    {
+      "feature": "oldpeak",
+      "display_name": "ST Depression (Oldpeak)",
+      "mean_abs_shap": 0.37177,
+      "description": "ST depression induced by exercise relative to rest"
+    },
+    {
+      "feature": "sex",
+      "display_name": "Sex",
+      "mean_abs_shap": 0.36938,
+      "description": "Biological sex (1 = Male, 0 = Female)"
+    },
+    {
+      "feature": "age",
+      "display_name": "Age",
+      "mean_abs_shap": 0.31262,
+      "description": "Age of the patient"
+    },
+    {
+      "feature": "slope",
+      "display_name": "Slope of Peak Exercise ST",
+      "mean_abs_shap": 0.28001,
+      "description": "1 = Upsloping, 2 = Flat, 3 = Downsloping"
+    },
+    {
+      "feature": "chol",
+      "display_name": "Serum Cholesterol",
+      "mean_abs_shap": 0.26726,
+      "description": "Serum cholesterol measurement"
+    },
+    {
+      "feature": "thalach",
+      "display_name": "Maximum Heart Rate Achieved",
+      "mean_abs_shap": 0.24212,
+      "description": "Peak heart rate during stress testing"
+    },
+    {
+      "feature": "exang",
+      "display_name": "Exercise Induced Angina",
+      "mean_abs_shap": 0.18924,
+      "description": "Angina induced by exercise (1 = Yes, 0 = No)"
+    },
+    {
+      "feature": "trestbps",
+      "display_name": "Resting Blood Pressure",
+      "mean_abs_shap": 0.13604,
+      "description": "Resting blood pressure on hospital admission"
+    },
+    {
+      "feature": "restecg",
+      "display_name": "Resting ECG Results",
+      "mean_abs_shap": 0.11717,
+      "description": "0 = Normal, 1 = ST-T Abnormality, 2 = LV Hypertrophy"
+    },
+    {
+      "feature": "fbs",
+      "display_name": "Fasting Blood Sugar > 120 mg/dL",
+      "mean_abs_shap": 0.01181,
+      "description": "Fasting blood sugar exceeding 120 mg/dL"
+    }
+  ]
+}

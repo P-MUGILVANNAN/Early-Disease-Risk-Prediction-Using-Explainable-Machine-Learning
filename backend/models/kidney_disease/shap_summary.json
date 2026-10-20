@@ -1,0 +1,176 @@
+{
+  "disease": "kidney_disease",
+  "base_value": 0.08298510313034058,
+  "feature_names": [
+    "age",
+    "bp",
+    "sg",
+    "al",
+    "su",
+    "bgr",
+    "bu",
+    "sc",
+    "sod",
+    "pot",
+    "hemo",
+    "pcv",
+    "wc",
+    "rc",
+    "rbc",
+    "pc",
+    "pcc",
+    "ba",
+    "htn",
+    "dm",
+    "cad",
+    "appet",
+    "pe",
+    "ane"
+  ],
+  "global_importance": [
+    {
+      "feature": "hemo",
+      "display_name": "Hemoglobin",
+      "mean_abs_shap": 1.55858,
+      "description": "Hemoglobin concentration"
+    },
+    {
+      "feature": "sg",
+      "display_name": "Specific Gravity",
+      "mean_abs_shap": 1.02969,
+      "description": "Urine specific gravity"
+    },
+    {
+      "feature": "sc",
+      "display_name": "Serum Creatinine",
+      "mean_abs_shap": 0.94859,
+      "description": "Serum creatinine measurement"
+    },
+    {
+      "feature": "al",
+      "display_name": "Albumin",
+      "mean_abs_shap": 0.68577,
+      "description": "Albumin levels in urine"
+    },
+    {
+      "feature": "pcv",
+      "display_name": "Packed Cell Volume (Hematocrit)",
+      "mean_abs_shap": 0.27645,
+      "description": "Packed cell volume percentage"
+    },
+    {
+      "feature": "htn",
+      "display_name": "Hypertension",
+      "mean_abs_shap": 0.23943,
+      "description": "History of hypertension"
+    },
+    {
+      "feature": "bgr",
+      "display_name": "Blood Glucose Random",
+      "mean_abs_shap": 0.21096,
+      "description": "Random blood glucose measurement"
+    },
+    {
+      "feature": "rc",
+      "display_name": "Red Blood Cell Count",
+      "mean_abs_shap": 0.12692,
+      "description": "Red blood cell count"
+    },
+    {
+      "feature": "dm",
+      "display_name": "Diabetes Mellitus",
+      "mean_abs_shap": 0.11634,
+      "description": "History of diabetes mellitus"
+    },
+    {
+      "feature": "pot",
+      "display_name": "Potassium",
+      "mean_abs_shap": 0.10723,
+      "description": "Blood potassium level"
+    },
+    {
+      "feature": "sod",
+      "display_name": "Sodium",
+      "mean_abs_shap": 0.07728,
+      "description": "Blood sodium level"
+    },
+    {
+      "feature": "age",
+      "display_name": "Age",
+      "mean_abs_shap": 0.05206,
+      "description": "Patient age"
+    },
+    {
+      "feature": "bu",
+      "display_name": "Blood Urea",
+      "mean_abs_shap": 0.01975,
+      "description": "Blood urea nitrogen level"
+    },
+    {
+      "feature": "wc",
+      "display_name": "White Blood Cell Count",
+      "mean_abs_shap": 0.00343,
+      "description": "White blood cell count"
+    },
+    {
+      "feature": "bp",
+      "display_name": "Blood Pressure",
+      "mean_abs_shap": 0.00275,
+      "description": "Blood pressure"
+    },
+    {
+      "feature": "ane",
+      "display_name": "Anemia",
+      "mean_abs_shap": 0.0,
+      "description": "Anemia condition present"
+    },
+    {
+      "feature": "pcc",
+      "display_name": "Pus Cell Clumps",
+      "mean_abs_shap": 0.0,
+      "description": "Presence of pus cell clumps"
+    },
+    {
+      "feature": "ba",
+      "display_name": "Bacteria",
+      "mean_abs_shap": 0.0,
+      "description": "Presence of bacteria"
+    },
+    {
+      "feature": "appet",
+      "display_name": "Appetite",
+      "mean_abs_shap": 0.0,
+      "description": "Patient appetite state"
+    },
+    {
+      "feature": "cad",
+      "display_name": "Coronary Artery Disease",
+      "mean_abs_shap": 0.0,
+      "description": "History of coronary artery disease"
+    },
+    {
+      "feature": "pe",
+      "display_name": "Pedal Edema",
+      "mean_abs_shap": 0.0,
+      "description": "Swelling in feet or legs"
+    },
+    {
+      "feature": "pc",
+      "display_name": "Pus Cell",
+      "mean_abs_shap": 0.0,
+      "description": "Pus cells in urine"
+    },
+    {
+      "feature": "rbc",
+      "display_name": "Red Blood Cells",
+      "mean_abs_shap": 0.0,
+      "description": "Red blood cells in urine"
+    },
+    {
+      "feature": "su",
+      "display_name": "Sugar",
+      "mean_abs_shap": 0.0,
+      "description": "Sugar levels in urine"
+    }
+  ]
+}
